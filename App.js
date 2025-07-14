@@ -1,11 +1,7 @@
-import HomeScreen from 'screens/HomeScreen';
-import './global.css';
+import AppNavigation from './navigation/AppNavigation';
 
-const App = () => {
+export default function App() {
   return (
-    <>
-      <HomeScreen />
-    </>
+    <AppNavigation />
   );
-};
-export default App;
+}
